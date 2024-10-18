@@ -267,6 +267,8 @@ Algumas funcionalidades que podem ser adicionadas ao projeto no futuro:
 
 6. **Autenticação e personalização**: Implementar um sistema de autenticação de usuários para que possam salvar rotas, ver histórico de viagens, e personalizar suas preferências de reabastecimento.
 
+7. Transformar sua API local em um servidor acessível a partir de outros dispositivos
+
 ## Contato
 
 Se você tiver alguma dúvida ou sugestão, entre em contato através do seguinte e-mail: [email@exemplo.com](mailto:email@exemplo.com).
