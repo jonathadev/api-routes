@@ -1,0 +1,22 @@
+Cargo: Desenvolvedor Django | Remoto
+
+A conclusão bem-sucedida desta tarefa resultará em uma recompensa de US$ 300. Para reivindicar esta recompensa, você deve satisfazer todos os requisitos listados abaixo.
+
+*Tarefa:
+Construir uma API que receba entradas de local de início e término dentro dos EUA
+
+Retornar um mapa da rota junto com o local ideal para abastecer ao longo da rota -- ideal geralmente significa custo-efetivo com base nos preços do combustível
+Suponha que o veículo tenha um alcance máximo de 500 milhas, então vários abastecimentos podem precisar ser exibidos na rota
+
+Retornar também o dinheiro total gasto em combustível, supondo que o veículo atinja 10 milhas por galão
+
+Use o arquivo em anexo para uma lista de preços de combustível
+Encontre uma API gratuita para o mapa e roteamento
+
+*Requisitos:
+Construa o aplicativo no Django 3.2.23
+Envie seus resultados para este projeto em até 3 dias após receber o exercício
+A API deve retornar resultados rapidamente, quanto mais rápido, melhor
+A API não deve precisar chamar muito a API de mapa/roteamento gratuita que você encontrou. Uma chamada para a API do mapa/rota é ideal, duas ou três são aceitáveis
+Faça um tear onde você usa o Postman ou uma plataforma de API similar para demonstrar o funcionamento da API enquanto também fornece uma rápida visão geral do seu código. Máximo de 5 minutos
+Compartilhe o código conosco

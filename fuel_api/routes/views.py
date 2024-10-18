@@ -29,6 +29,14 @@ def load_fuel_data():
 
 load_fuel_data()
 
+def display_fuel_data(request):
+    if fuel_data is None:
+        logging.error("Dados de combustível não carregados.")
+        return JsonResponse({"error": "Dados de combustível não carregados."}, status=500)
+    
+    return JsonResponse(fuel_data, safe=False)
+
+
 def calculate_total_cost(distance):
     range_per_tank = 500  # em milhas
     gallons_needed = distance / 10  # supondo 10 milhas por galão
