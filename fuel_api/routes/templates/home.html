@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados da Rota</title>
+</head>
+<body>
+    <h1>Dados da Rota</h1>
+    <p>Distância da rota: {{ route_distance }} milhas</p>
+    <p>Custo total: ${{ total_cost }}</p>
+    <h2>Paradas de Abastecimento</h2>
+    <ul>
+        {% for stop in fuel_stops %}
+            <li>{{ stop.Truckstop_Name }} - {{ stop.Address }}, {{ stop.City }}, {{ stop.State }}: ${{ stop.Retail_Price }}</li>
+        {% endfor %}
+    </ul>
+
+    <iframe src="map.html" width="100%" height="600px"></iframe>  <!-- Adicionando o mapa -->
+</body>
+</html>

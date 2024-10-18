@@ -1,0 +1,1 @@
+const response = await fetch(`/api/route?start=${start}&end=${end}`);
