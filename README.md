@@ -271,7 +271,7 @@ Algumas funcionalidades que podem ser adicionadas ao projeto no futuro:
 
 ## Contato
 
-Se você tiver alguma dúvida ou sugestão, entre em contato através do seguinte e-mail: [email@exemplo.com](mailto:email@exemplo.com).
+Se você tiver alguma dúvida ou sugestão, entre em contato através do seguinte e-mail: jonatha.mendonca@hotmail.com
 
 ## Agradecimentos
 
