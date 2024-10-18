@@ -11,6 +11,7 @@ X- Gera um mapa da rota usando Folium. nao esta gerando o map.html e ligacao dos
 X admin criar username e senha -http://localhost:8000/admin/login/?next=/admin/
 -puxa dados do .csv http://localhost:8000/route/fuel-data/
 
+video do projeto - https://www.loom.com/share/26f8e9e1a1944cbe8dec5eca25f2b398?sid=47db71c3-73de-4ace-9cd4-25697589f6fc
 ## Pré-requisitos
 
 Antes de rodar o projeto, certifique-se de que você tem os seguintes itens instalados:
